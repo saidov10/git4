@@ -486,6 +486,9 @@
   .text-\[43px\] {
     font-size: 43px;
   }
+  .text-\[48px\] {
+    font-size: 48px;
+  }
   .text-\[50px\] {
     font-size: 50px;
   }
@@ -601,6 +604,11 @@
       width: 45%;
     }
   }
+  .md\:w-\[45\] {
+    @media (width >= 48rem) {
+      width: 45;
+    }
+  }
   .md\:w-\[60\%\] {
     @media (width >= 48rem) {
       width: 60%;
@@ -654,6 +662,11 @@
   .md\:text-\[70px\] {
     @media (width >= 48rem) {
       font-size: 70px;
+    }
+  }
+  .md\:text-\[69pxl\] {
+    @media (width >= 48rem) {
+      color: 69pxl;
     }
   }
   .md\:shadow-2xl {
